@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Smartphone",
+    "price": 599.99,
+    "description": "High-end smartphone with advanced features.",
+    "category": "Electronics",
+    "stockQuantity": 50
+  },
+  {
+    "name": "T-shirt",
+    "price": 19.99,
+    "description": "Comfortable cotton T-shirt.",
+    "category": "Clothing",
+    "stockQuantity": 100
+  },
+  {
+    "name": "Book: The Great Gatsby",
+    "price": 12.99,
+    "description": "Classic novel by F. Scott Fitzgerald.",
+    "category": "Books",
+    "stockQuantity": 30
+  },
+  {
+    "name": "Coffee Mug",
+    "price": 9.99,
+    "description": "Stylish coffee mug with a unique design.",
+    "category": "Other",
+    "stockQuantity": 75
+  }
+]
