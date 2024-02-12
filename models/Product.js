@@ -3,15 +3,14 @@ const mongoose = require("mongoose");
 const productSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
     trim: true,
     minlength: 3,
     maxlength: 50,
   },
   price: {
     type: Number,
-    required: true,
     min: 0,
+    default: 0,
   },
   description: {
     type: String,
@@ -19,7 +18,6 @@ const productSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: ["Electronics", "Clothing", "Books", "Other"],
   },
   stockQuantity: {
     type: Number,
